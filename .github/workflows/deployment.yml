@@ -1,7 +1,7 @@
 name: Deploy app
 on: push
 jobs:
-  test_app:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       # Получаем исходный код приложения с помощью actions
